@@ -2,6 +2,9 @@ body {
   text-align: center;
   padding: 100px;
 }
+* {
+  box-sizing: border-box;
+}
 body,
 h1,
 h2,
