@@ -1,3 +1,7 @@
+body {
+  text-align: center;
+  padding: 100px;
+}
 body,
 h1,
 h2,
@@ -18,4 +22,7 @@ hr {
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
