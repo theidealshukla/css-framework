@@ -1,3 +1,9 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 * {
   box-sizing: border-box;
 }
@@ -24,4 +30,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: #0000;
 }
