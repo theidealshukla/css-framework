@@ -8,9 +8,6 @@
   --color-light: #f8f9fa;
   --color-dark: #343a40;
 }
-body {
-  background-color: var(--color-primary);
-}
 * {
   box-sizing: border-box;
 }
@@ -632,4 +629,13 @@ button {
 
 .bg-dark {
   background-color: var(--color-dark);
+}
+.box {
+  background-color: green;
+}
+.screen-height {
+  height: 100vh;
+}
+.screen-width {
+  width: 100vw;
 }
