@@ -8,7 +8,9 @@
   --color-light: #f8f9fa;
   --color-dark: #343a40;
 }
-* {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 body,
@@ -630,12 +632,18 @@ button {
 .bg-dark {
   background-color: var(--color-dark);
 }
-.box {
-  background-color: green;
-}
 .screen-height {
   height: 100vh;
 }
 .screen-width {
   width: 100vw;
+}
+.inline {
+  display: inline;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
 }
